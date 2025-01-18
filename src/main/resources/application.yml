@@ -1,1 +1,8 @@
-spring.application.name=test_project
+server:
+  port: 8080
+spring:
+  profiles:
+    include:
+      - db
+  application:
+    name: digital_travel
