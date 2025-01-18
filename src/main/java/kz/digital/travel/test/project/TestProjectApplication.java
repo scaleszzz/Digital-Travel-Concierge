@@ -1,4 +1,4 @@
-package kz.digital.travel.test_project;
+package kz.digital.travel.test.project;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
