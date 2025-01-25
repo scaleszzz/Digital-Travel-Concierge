@@ -6,3 +6,6 @@ spring:
       - db
   application:
     name: digital_travel
+jwt:
+  secret-key: "${AUTH_SECRET_KEY:AD822B6DFE3F59C66898744587293D19AC3D4B58AEFBEF169E2D7DB83EE45AF8}"
+  expiration: "${expiration:3600000}"
